@@ -1,0 +1,19 @@
+{
+  "name": "ts-cheat-sheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeeckmanThe1/ts-cheat-sheet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeeckmanThe1/ts-cheat-sheet/issues"
+  },
+  "homepage": "https://github.com/BeeckmanThe1/ts-cheat-sheet#readme"
+}
