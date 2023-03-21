@@ -1,0 +1,35 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# generated files
+
+# dependencies
+node_modules
+
+# testing
+coverage
+test-results
+code-coverage
+
+# production
+build
+dist
+dist-e2e
+
+# misc
+.DS_Store
+.env
+.env.release
+.env.master
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea/
+*.iml
+*.ini
+
+.awcache/
+.vscode/
+
+.babelcache
+.tersercache

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BeeckmanThe1/ts-cheat-sheet/issues"
   },
-  "homepage": "https://github.com/BeeckmanThe1/ts-cheat-sheet#readme"
+  "homepage": "https://github.com/BeeckmanThe1/ts-cheat-sheet#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }
