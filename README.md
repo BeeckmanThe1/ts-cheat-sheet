@@ -8,7 +8,6 @@ we are using
    - generics
    - generics with optional params
    - generics with default params
-   - generics
    - primitive types
    - union types
    - composed types
@@ -23,6 +22,6 @@ we are using
    - T[number], T["length"], T[0]
    - extends (see basic concepts > extends.ts) & Distributive Conditional Types exception for generics (see conditionals.ts)
 ## medium
-    - Same principles as above
-    - [k in T as ***]-syntax
-    - recursive generic functions
+   - Same principles as above
+   - [k in T as ***]-syntax
+   - recursive generic functions
