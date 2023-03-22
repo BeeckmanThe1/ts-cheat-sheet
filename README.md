@@ -1,9 +1,28 @@
 Typescript documentation based on challenges:
 https://github.com/type-challenges/type-challenges
 
-type UnionExclude<T, U> = T extends U ? never : T
-type NewType = UnionExclude<'a' | 'b' | 'c' | 'd', 'a' | 'd'> // 'b' | 'c'
+## Eazy
 
-// BUUUUUUUUUUUUUUUUUT:
-
-type Test19 = 'a' | 'b' | 'c' | 'd' extends 'a' | 'd' ? never : 'a' | 'b' | 'c' | 'd' // 'a' | 'b' | 'c' | 'd'
+Most of the "easy challenges" are indeed quite eazy.
+we are using
+   - generics
+   - generics with optional params
+   - generics with default params
+   - generics
+   - primitive types
+   - union types
+   - composed types
+   - looping (key in keyof T)
+   - optionals
+   - required
+   - readonly
+   - inferring params
+   - inferring return type
+   - ternary conditional operator (condiditon ? TIfTrue : TIfFalse)
+   - Spread Operator
+   - T[number], T["length"], T[0]
+   - extends (see basic concepts > extends.ts) & Distributive Conditional Types exception for generics (see conditionals.ts)
+## medium
+    - Same principles as above
+    - [k in T as ***]-syntax
+    - recursive generic functions

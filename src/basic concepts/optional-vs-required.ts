@@ -22,6 +22,7 @@ const person2: PartialPerson = {
     // Almost nothing is implemented. Usecase? getMockedData in unit tests!
 }
 
+// everything needs to be implemented
 const person3: StrictPerson = {
     firstname: "Jacobus",
     lastName: "Verbrugge",

@@ -25,7 +25,7 @@ const dataWrap2: WrappedInData2 = {
     data: [input2]
 }
 
-// Restricting Generic type
+// typing/restricting Generic type
 type WrappedInData3<T extends { value: string }> = {
     data: T[]
 }
